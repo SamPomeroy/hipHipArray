@@ -115,31 +115,43 @@ for(let i = 3; i <= 10; i ++){
 // Make a COPY of the `students` array *using .slice*, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy individually. THEN log out each value of the original array. Notice that the original array didn't get any values taken out of it, because `slice` does NOT modify the original array.
 let newList = students.slice(3, 11)
 
-console.log(newList[0])
-console.log(newList[1])
-console.log(newList[2])
-console.log(newList[3])
-console.log(newList[4])
-console.log(newList[5])
-console.log(newList[6])
-console.log(newList[7])
-console.log(students)
+// console.log(newList[0])
+// console.log(newList[1])
+// console.log(newList[2])
+// console.log(newList[3])
+// console.log(newList[4])
+// console.log(newList[5])
+// console.log(newList[6])
+// console.log(newList[7])
+// console.log(students)
 
 
 // Challenge 12
 // Pull the items at indices 4-6 (inclusive) from the following array using .splice (NOT .slice!), then console.log out each item from the ORIGINAL array. Note that .splice DOES change the original array.
 const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
-
+// let someDinos = dinosaurs.splice(4, 3)
+// console.log(dinosaurs)
 
 // Challenge 13
 // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
-
+// let joinedDino = dinosaurs.join("*")
+// console.log(joinedDino)
 
 // Challenge 14
 // Use .reverse to reverse the dinosaur array and then log out the original array. .reverse DOES change the original array.
-
+dinosaurs.reverse()
+// console.log(dinosaurs)
 
 // Challenge 15
 // Use .concat to combine the following two arrays into a NEW array you make (.concat RETURNS an array). Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
 const primaries = ['red', 'yellow', 'blue'];
 const secondaries = ['orange', 'green', 'purple'];
+let newArr = primaries.concat(secondaries)
+// console.log(newArr[0])
+// console.log(newArr[1])
+// console.log(newArr[2])
+// console.log(newArr[3])
+// console.log(newArr[4])
+// console.log(newArr[5])
+// console.log(primaries)
+// console.log(secondaries)
