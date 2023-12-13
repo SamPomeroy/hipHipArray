@@ -38,8 +38,11 @@ for(let i = grades.length -1; i >= 0; i --){
 // Challenge 3
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
-
-
+for(let i = 0; i < positiveNumbers.length; i++){
+if(positiveNumbers[i] % 2 === 0){
+  // console.log(positiveNumbers[i])
+}
+}
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
 const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
